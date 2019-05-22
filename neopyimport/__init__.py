@@ -1,4 +1,2 @@
-__all__=[
-    "downloader",
-    "graph"
-]
+__all__ = ["downloader", "graph"]
+

@@ -1,12 +1,12 @@
 from setuptools import setup, find_packages
 
-VERSION="0.1.dev0"
+VERSION = "0.1.dev0"
 
 with open("README.md", "r") as f:
     long_description = f.read()
 
 setup(
-    name="neopylib",  
+    name="neopylib",
     version=VERSION,
     author="Clément Trassoudaine",
     author_email="clement.trassoudaine@eurecom.fr",
@@ -19,10 +19,11 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     python_requires=">=3.6.6",
-    install_requires=[pandas],
+    install_requires=["pandas"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
- )
+)
+
